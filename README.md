@@ -1,11 +1,5 @@
 # Chatbot BD Embassy Berlin
 
-## Roadmap
-
-[Link](https://docs.google.com/document/d/1bq7m9UfU6NQkErgbuPU6wEOh2_fwR9rt65uvS1rJgRQ/edit?tab=t.0)
-
----
-
 ## How to run (parser)
 
 ### 1. Create & activate virtual environment
