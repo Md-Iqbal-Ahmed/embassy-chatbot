@@ -1,7 +1,7 @@
 # Chatbot BD Embassy Berlin
 
 <p align="center">
-  <img src="report/homepage.png" width="600" alt="Dashboard Geometry Model Graph"><br>
+  <img src="report/homepage.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
 </p>
 
 ## How to run (parser)
