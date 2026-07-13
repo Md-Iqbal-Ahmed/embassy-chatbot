@@ -1,5 +1,9 @@
 # Chatbot BD Embassy Berlin
 
+<p align="center">
+  <img src="reports/Geomatry report.png" width="600" alt="Dashboard Geometry Model Graph"><br>
+</p>
+
 ## How to run (parser)
 
 ### 1. Create & activate virtual environment
