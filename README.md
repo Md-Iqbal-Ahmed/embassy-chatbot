@@ -89,28 +89,28 @@ Chatbot_BD_Embassy_Berlin/
 ```
 ## 🛠️ Tech Stack & Dependencies
 
-* **Language**: Python 3.10+[cite: 2]
-* **Frontend / UI**: Streamlit[cite: 2]
-* **Vector Search Engine**: FAISS (`faiss-cpu`)[cite: 2]
-* **Embedding Providers**: OpenAI Embeddings (`text-embedding-3-small`) & Cohere Multilingual Embeddings (`embed-multilingual-v3.0`)[cite: 2]
-* **Large Language Models (LLM)**: OpenAI API (`gpt-4o` / `gpt-3.5-turbo`)[cite: 2]
-* **Web Scraping & HTML Cleaning**: BeautifulSoup4 (`bs4`), Requests[cite: 2]
-* **Data Processing & Serialization**: NumPy, Pickle[cite: 2]
+* **Language**: Python 3.10+
+* **Frontend / UI**: Streamlit
+* **Vector Search Engine**: FAISS (`faiss-cpu`)
+* **Embedding Providers**: OpenAI Embeddings (`text-embedding-3-small`) & Cohere Multilingual Embeddings (`embed-multilingual-v3.0`)
+* **Large Language Models (LLM)**: OpenAI API (`gpt-4o` / `gpt-3.5-turbo`)
+* **Web Scraping & HTML Cleaning**: BeautifulSoup4 (`bs4`), Requests
+* **Data Processing & Serialization**: NumPy, Pickle
 
 ---
 
 ## ⚙️ Module Responsibilities
 
-* **`parser/src/crawler.py`**: Discovers and downloads HTML content across consular service categories from the official Bangladesh Embassy Berlin website[cite: 2].
-* **`parser/src/cleaner.py`**: Extracts text from raw HTML, removes headers, footers, scripts, and navigation menus, and standardizes data into structured JSON entries[cite: 2].
-* **`parser/scripts/run.py`**: Orchestrates the automated scraping and cleaning workflow to produce `output.cleaned.json`[cite: 2].
-* **`retrieval/src/text_chunker.py`**: Splits cleaned documents into fixed-size semantic chunks with overlap to maintain contextual integrity across document splits[cite: 2].
-* **`retrieval/src/multilingual_embeddings.py`**: Connects to the OpenAI and Cohere APIs to generate high-dimensional vector representations for multilingual text[cite: 2].
-* **`retrieval/src/faiss_index.py`**: Provides helper methods to initialize, populate, save, and query dense FAISS similarity indices[cite: 2].
-* **`retrieval/src/build_multilingual_faiss.py`**: Main indexing pipeline script that processes `output.cleaned.json`, computes embeddings, and serializes the index and metadata to disk[cite: 2].
-* **`retrieval/src/search_multilingual_faiss.py`**: Command-line verification tool to test top-$k$ nearest-neighbor retrieval quality[cite: 2].
-* **`streamlit/chatbot_mul.py`**: Primary web application entry point managing chat history, query embedding, FAISS similarity search, prompt augmentation, and response streaming[cite: 2].
-* **`streamlit/embeddings_handler.py`**: Loads and caches vector indices and metadata into Streamlit memory to ensure low-latency query handling[cite: 2].
+* **`parser/src/crawler.py`**: Discovers and downloads HTML content across consular service categories from the official Bangladesh Embassy Berlin website.
+* **`parser/src/cleaner.py`**: Extracts text from raw HTML, removes headers, footers, scripts, and navigation menus, and standardizes data into structured JSON entries.
+* **`parser/scripts/run.py`**: Orchestrates the automated scraping and cleaning workflow to produce `output.cleaned.json`.
+* **`retrieval/src/text_chunker.py`**: Splits cleaned documents into fixed-size semantic chunks with overlap to maintain contextual integrity across document splits.
+* **`retrieval/src/multilingual_embeddings.py`**: Connects to the OpenAI and Cohere APIs to generate high-dimensional vector representations for multilingual text.
+* **`retrieval/src/faiss_index.py`**: Provides helper methods to initialize, populate, save, and query dense FAISS similarity indices.
+* **`retrieval/src/build_multilingual_faiss.py`**: Main indexing pipeline script that processes `output.cleaned.json`, computes embeddings, and serializes the index and metadata to disk.
+* **`retrieval/src/search_multilingual_faiss.py`**: Command-line verification tool to test top-$k$ nearest-neighbor retrieval quality.
+* **`streamlit/chatbot_mul.py`**: Primary web application entry point managing chat history, query embedding, FAISS similarity search, prompt augmentation, and response streaming.
+* **`streamlit/embeddings_handler.py`**: Loads and caches vector indices and metadata into Streamlit memory to ensure low-latency query handling.
 
 ## How to run (parser)
 ```bash
