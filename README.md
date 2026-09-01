@@ -1,5 +1,26 @@
 # RAG Chatbot Embassy Berlin
 
+## 📌 Project Overview
+
+- Navigating consular instructions across multiple languages and complex web pages can be challenging. This project addresses that problem by:
+- Scraping and cleaning data directly from the official embassy portal.
+- Converting consular text into dense vector embeddings using multilingual models (OpenAI / Cohere).
+- Leveraging **FAISS** for millisecond-latency vector similarity retrieval.
+- Using an LLM through an interactive **Streamlit** user interface to provide grounded, hallucination-free answers in multiple languages.
+
+---
+
+## 🚀 Key Features
+
+* **Multilingual Query Support**: Accepts and processes inquiries in English, Bengali, and German[cite: 2].
+* **Automated Data Processing**: Scrapes, extracts, cleans, and standardizes web content into clean JSON documents[cite: 2].
+* **Semantic Text Chunking**: Splits large documents into overlapping token chunks to preserve context boundaries[cite: 2].
+* **Dual Embedding Backend**: Built-in support for both **OpenAI** and **Cohere** multilingual embeddings[cite: 2].
+* **Fast Vector Indexing**: Serializes and queries dense vector representations using Facebook AI Similarity Search (**FAISS**)[cite: 2].
+* **Interactive Streamlit UI**: User-friendly chat interface with streaming responses and contextual verification[cite: 2].
+
+---
+
 ## 🌐 Multilingual Query Demonstrations
 
 The system handles inquiries seamlessly across English, Bengali, and German.
@@ -47,27 +68,6 @@ The system handles inquiries seamlessly across English, Bengali, and German.
 
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** chatbot designed to assist users with consular service inquiries (e.g., passports, visas, dual nationality certificates, attestation, and fees) for an Embassy.
-
----
-
-## 📌 Project Overview
-
-Navigating consular instructions and complex web pages can be challenging. This project addresses that problem by:
-- Scraping and cleaning data directly from the official embassy portal.
-- Converting consular text into dense vector embeddings using multilingual models (OpenAI / Cohere).
-- Leveraging **FAISS** for millisecond-latency vector similarity retrieval.
-- Using an LLM through an interactive **Streamlit** user interface to provide grounded, hallucination-free answers.
-
----
-
-## 🚀 Key Features
-
-* **Query Support**: Accepts and processes inquiries in English.
-* **Automated Data Processing**: Scrapes, extracts, cleans, and standardizes web content into clean JSON documents.
-* **Semantic Text Chunking**: Splits large documents into overlapping token chunks to preserve context boundaries.
-* **Dual Embedding Backend**: Built-in support for both **OpenAI** and **Cohere** multilingual embeddings.
-* **Fast Vector Indexing**: Serializes and queries dense vector representations using Facebook AI Similarity Search (**FAISS**).
-* **Interactive Streamlit UI**: User-friendly chat interface with streaming responses and contextual verification.
 
 ---
 
