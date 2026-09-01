@@ -1,7 +1,20 @@
 # Chatbot Embassy Berlin
 
 <p align="center">
-  <img src="report/homepage.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
+  <img src="report/Outputs/Output 1.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
+</p>
+
+<p align="center">
+  <img src="report/Outputs/Output 2.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
+</p>
+<p align="center">
+  <img src="report/Outputs/Output 3.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
+</p>
+<p align="center">
+  <img src="report/Outputs/Output 4.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
+</p>
+<p align="center">
+  <img src="report/Outputs/Output 5.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
 </p>
 RAG Chatbot
 
