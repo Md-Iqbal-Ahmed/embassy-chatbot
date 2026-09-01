@@ -15,7 +15,7 @@ Navigating consular instructions and complex web pages can be challenging. This 
 - Scraping and cleaning data directly from the official embassy portal.
 - Converting consular text into dense vector embeddings using multilingual models (OpenAI / Cohere).
 - Leveraging **FAISS** for millisecond-latency vector similarity retrieval.
-- Using an LLM through an interactive **Streamlit** user interface to provide grounded, hallucination-free answers in multiple languages.
+- Using an LLM through an interactive **Streamlit** user interface to provide grounded, hallucination-free answers.
 
 ---
 
