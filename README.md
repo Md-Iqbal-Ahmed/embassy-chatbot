@@ -21,48 +21,80 @@
 
 ---
 
-## 🌐 Multilingual Query Demonstrations
+### 🇧🇩 1. Bengali Query: Passport Fee Information
+> **Query:** `পাসপোর্ট ফি` | **Mode:** Semantic Search (Vector)
 
-The system handles inquiries seamlessly across English, Bengali, and German.
+<p align="center">
+  <a href="report/Outputs/Output%201.png" target="_blank">
+    <img src="report/Outputs/Output%201.png" alt="Bengali Passport Fee Query" width="100%">
+  </a>
+</p>
 
-### 1. Passport Inquiries
-| Bengali Query | English Query |
-| :---: | :---: |
-| <img src="report/Outputs/Output 1.png" width="500" alt="Passport Fee Query in Bengali"/> | <img src="report/Outputs/Output 2.png" width="500" alt="Passport Fee Query in English"/> |
-| *পাসপোর্ট ফি সংক্রান্ত তথ্য* | *E-Passport fee details* |
+---
 
-### 2. Consular Staff & Embassy Leadership
-| German Query | English Query | Bengali Query |
-| :---: | :---: | :---: |
-| <img src="report/Outputs/Output 3.png" width="350" alt="Embassy Head Query in German"/> | <img src="report/Outputs/Output 4.png" width="350" alt="Embassy Head Query in English"/> | <img src="report/Outputs/Output 5.png" width="350" alt="Embassy Head Query in Bengali"/> |
-| *Botschaftsleiter Anfrage* | *Head of Embassy inquiry* | *দূতাবাস প্রধানের তথ্য* |
+### 🇬🇧 2. English Query: Embassy Leadership
+> **Query:** `head of the embassy name?` | **Mode:** Semantic Search (Vector)
+
+<p align="center">
+  <a href="report/Outputs/Output%204.png" target="_blank">
+    <img src="report/Outputs/Output%204.png" alt="English Embassy Head Query" width="100%">
+  </a>
+</p>
+
+---
+
+### 🇩🇪 3. German Query: Embassy Leadership
+> **Query:** `Name des Botschaftsleiters?` | **Mode:** Semantic Search (Vector)
+
+<p align="center">
+  <a href="report/Outputs/Output%203.png" target="_blank">
+    <img src="report/Outputs/Output%203.png" alt="German Embassy Head Query" width="100%">
+  </a>
+</p>
 
 
-## 📸 Demo Screenshots
+## 🔍 Query Demonstrations by Language
 
-<details>
-<summary><b>🇧🇩 Bengali Queries (বাংলা প্রশ্ন ও উত্তর)</b></summary>
+<details open>
+<summary><b>🇧🇩 Bengali (বাংলা) Demos</b></summary>
 <br>
 
-![Bengali Passport Info](report/Outputs/Output%201.png)
-![Bengali Embassy Head Info](report/Outputs/Output%205.png)
+**Passport Fee Query:**
+<a href="report/Outputs/Output%201.png" target="_blank">
+  <img src="report/Outputs/Output%201.png" width="100%" alt="Bengali Passport Fee Output"/>
+</a>
+
+**Ambassador Query:**
+<a href="report/Outputs/Output%205.png" target="_blank">
+  <img src="report/Outputs/Output%205.png" width="100%" alt="Bengali Ambassador Output"/>
+</a>
 
 </details>
 
 <details>
-<summary><b>🇬🇧 English Queries</b></summary>
+<summary><b>🇬🇧 English Demos</b></summary>
 <br>
 
-![English Passport Info](report/Outputs/Output%202.png)
-![English Embassy Head Info](report/Outputs/Output%204.png)
+**Passport Fee Query:**
+<a href="report/Outputs/Output%202.png" target="_blank">
+  <img src="report/Outputs/Output%202.png" width="100%" alt="English Passport Fee Output"/>
+</a>
+
+**Ambassador Query:**
+<a href="report/Outputs/Output%204.png" target="_blank">
+  <img src="report/Outputs/Output%204.png" width="100%" alt="English Ambassador Output"/>
+</a>
 
 </details>
 
 <details>
-<summary><b>🇩🇪 German Queries (Deutsche Anfragen)</b></summary>
+<summary><b>🇩🇪 German (Deutsch) Demos</b></summary>
 <br>
 
-![German Embassy Head Info](report/Outputs/Output%203.png)
+**Ambassador Query:**
+<a href="report/Outputs/Output%203.png" target="_blank">
+  <img src="report/Outputs/Output%203.png" width="100%" alt="German Ambassador Output"/>
+</a>
 
 </details>
 
