@@ -47,8 +47,9 @@ Navigating consular instructions and complex web pages can be challenging. This 
           ▼
    4. Query & RAG Generation (`streamlit/chatbot_mul.py`)
              Embeds user query -> searches FAISS -> injects context -> streams LLM answer
-
+```
 ## 📁 Repository Structure
+
 
 ```text
 Chatbot_BD_Embassy_Berlin/
@@ -84,8 +85,7 @@ Chatbot_BD_Embassy_Berlin/
 └── README.md                              # Project documentation
 ### 2. Install dependencies
 
-```bash
-pip install -r requirements.txt
+
 ```
 ## 🛠️ Tech Stack & Dependencies
 
@@ -113,7 +113,9 @@ pip install -r requirements.txt
 * **`streamlit/embeddings_handler.py`**: Loads and caches vector indices and metadata into Streamlit memory to ensure low-latency query handling[cite: 2].
 
 ## How to run (parser)
-
+```bash
+pip install -r requirements.txt
+```
 ### 1. Create & activate virtual environment
 
 ```bash
