@@ -1,22 +1,50 @@
-# Chatbot Embassy Berlin
+# RAG Chatbot Embassy Berlin
 
-<p align="center">
-  <img src="report/Outputs/Output 1.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
-</p>
+## 🌐 Multilingual Query Demonstrations
 
-<p align="center">
-  <img src="report/Outputs/Output 2.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
-</p>
-<p align="center">
-  <img src="report/Outputs/Output 3.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
-</p>
-<p align="center">
-  <img src="report/Outputs/Output 4.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
-</p>
-<p align="center">
-  <img src="report/Outputs/Output 5.png" width="1200" alt="Dashboard Geometry Model Graph"><br>
-</p>
-RAG Chatbot
+The system handles inquiries seamlessly across English, Bengali, and German.
+
+### 1. Passport Inquiries
+| Bengali Query | English Query |
+| :---: | :---: |
+| <img src="report/Outputs/Output 1.png" width="500" alt="Passport Fee Query in Bengali"/> | <img src="report/Outputs/Output 2.png" width="500" alt="Passport Fee Query in English"/> |
+| *পাসপোর্ট ফি সংক্রান্ত তথ্য* | *E-Passport fee details* |
+
+### 2. Consular Staff & Embassy Leadership
+| German Query | English Query | Bengali Query |
+| :---: | :---: | :---: |
+| <img src="report/Outputs/Output 3.png" width="350" alt="Embassy Head Query in German"/> | <img src="report/Outputs/Output 4.png" width="350" alt="Embassy Head Query in English"/> | <img src="report/Outputs/Output 5.png" width="350" alt="Embassy Head Query in Bengali"/> |
+| *Botschaftsleiter Anfrage* | *Head of Embassy inquiry* | *দূতাবাস প্রধানের তথ্য* |
+
+
+## 📸 Demo Screenshots
+
+<details>
+<summary><b>🇧🇩 Bengali Queries (বাংলা প্রশ্ন ও উত্তর)</b></summary>
+<br>
+
+![Bengali Passport Info](report/Outputs/Output%201.png)
+![Bengali Embassy Head Info](report/Outputs/Output%205.png)
+
+</details>
+
+<details>
+<summary><b>🇬🇧 English Queries</b></summary>
+<br>
+
+![English Passport Info](report/Outputs/Output%202.png)
+![English Embassy Head Info](report/Outputs/Output%204.png)
+
+</details>
+
+<details>
+<summary><b>🇩🇪 German Queries (Deutsche Anfragen)</b></summary>
+<br>
+
+![German Embassy Head Info](report/Outputs/Output%203.png)
+
+</details>
+
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** chatbot designed to assist users with consular service inquiries (e.g., passports, visas, dual nationality certificates, attestation, and fees) for an Embassy.
 
