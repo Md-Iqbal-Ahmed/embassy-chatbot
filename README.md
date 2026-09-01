@@ -47,15 +47,7 @@ Navigating consular instructions and complex web pages can be challenging. This 
           ▼
    4. Query & RAG Generation (`streamlit/chatbot_mul.py`)
              Embeds user query -> searches FAISS -> injects context -> streams LLM answer
-## How to run (parser)
 
-### 1. Create & activate virtual environment
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate    # macOS/Linux
-.venv\Scripts\activate       # Windows
-```
 ## 📁 Repository Structure
 
 ```text
@@ -120,7 +112,17 @@ pip install -r requirements.txt
 * **`streamlit/chatbot_mul.py`**: Primary web application entry point managing chat history, query embedding, FAISS similarity search, prompt augmentation, and response streaming[cite: 2].
 * **`streamlit/embeddings_handler.py`**: Loads and caches vector indices and metadata into Streamlit memory to ensure low-latency query handling[cite: 2].
 
-### Run the parser
+## How to run (parser)
+
+### 1. Create & activate virtual environment
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate    # macOS/Linux
+.venv\Scripts\activate       # Windows
+```
+
+### 2. Run the parser
 
 ```bash
 python -m parser.scripts.run \
@@ -129,7 +131,7 @@ python -m parser.scripts.run \
   --out parser/data/clean/output.cleaned.json
 ```
 
-### For faiss
+### 3. For faiss
 
 ```bash
 python -m retrieval.src.build_faiss \
@@ -141,7 +143,7 @@ python -m retrieval.src.build_faiss \
   --model paraphrase-multilingual-MiniLM-L12-v2
 ```
 
-### For query
+### 4. For query
 
 ```bash
 python -m retrieval.src.search_faiss \
