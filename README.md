@@ -11,7 +11,7 @@ An end-to-end **Retrieval-Augmented Generation (RAG)** chatbot designed to assis
 
 ## 📌 Project Overview
 
-Navigating consular instructions across multiple languages and complex web pages can be challenging. This project addresses that problem by:
+Navigating consular instructions and complex web pages can be challenging. This project addresses that problem by:
 - Scraping and cleaning data directly from the official embassy portal.
 - Converting consular text into dense vector embeddings using multilingual models (OpenAI / Cohere).
 - Leveraging **FAISS** for millisecond-latency vector similarity retrieval.
